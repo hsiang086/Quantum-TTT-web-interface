@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <title>Quantum TicTacToe</title>
+        <meta name="author" content="Yi-Te Huang">
+        <meta name="description" content="The Quantum version of Tic-Tac-Toe game.">
+        <meta property="og:image" content="">
+        <meta property="og:title" content="Quantum TicTacToe">
+        <meta property="og:description" content="The Quantum version of Tic-Tac-Toe game.">
+
+        <link rel="stylesheet" href="assets/style.css">
+    </head>
+    <body>
+        <h1>Quantum Tic-Tac-Toe</h1>
+        <p></p>
+        <table id="Board">
+            <tr>
+            <td>
+                <table id="GameTable">
+                    <tr>
+                        <td><table class="block" id="block_0"></table></td>
+                        <td><table class="block" id="block_1"></table></td>
+                        <td><table class="block" id="block_2"></table></td>
+                    </tr>
+                    <tr>
+                        <td><table class="block" id="block_3"></table></td>
+                        <td><table class="block" id="block_4"></table></td>
+                        <td><table class="block" id="block_5"></table></td>
+                    </tr>
+                    <tr>
+                        <td><table class="block" id="block_6"></table></td>
+                        <td><table class="block" id="block_7"></table></td>
+                        <td><table class="block" id="block_8"></table></td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table id="PlayerInterface">
+                    <tr >
+                        <td colspan="2">
+                            <h2 class="label" id="RoundLabel">Round: 0</h2>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h2 class="label" id="OLabel"><b>O</b></h2>
+                        </td>
+                        <td>
+                            <button id="OBtn"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h2 class="label" id="XLabel"><b>X</b></h2>
+                        </td>
+                        <td>
+                            <button id="XBtn"></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><p id="msg"></p></td>
+                    </tr>
+                </table>
+            </td>
+            </tr>
+        </table>
+        <p></p>
+    <script src="assets/log.js"></script>
+    <script src="assets/marker.js"></script>
+    <script src="assets/graph.js"></script>
+    <script src="assets/game.js"></script>
+    </body>
+</html>

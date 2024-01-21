@@ -1,0 +1,131 @@
+/* General styling */
+html {
+    font-family: 'Helvetica', sans-serif;
+}
+
+/* Header styles */
+h1 {
+    background: #2C3E50;
+    color: white;
+    margin: 0;
+    font-size: 60px;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+}
+
+/* Centering the board and game table */
+#Board, #GameTable {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Styling for game blocks */
+.block {
+    height: 240px;
+    width: 240px;
+    font-size: 0;
+    text-align: center;
+    padding: 0;
+    border-collapse: collapse;
+    margin-left: -10px;
+    margin-bottom: -10px;
+    border: 8px solid #2E86C1; /* Blue color */
+}
+
+/* Styling for player interface */
+#PlayerInterface {
+    width: 280px;
+    height: 720px;
+    align-content: center;
+}
+
+#PlayerInterface tr {
+    height: 60px;
+}
+
+/* Styling for labels */
+.label {
+    color: #2E86C1; /* Blue color */
+    font-size: 55px;
+    padding: 0;
+}
+
+#RoundLabel,
+#OLabel,
+#XLabel {
+    text-align: center;
+}
+
+#RoundCount {
+    text-align: center;
+}
+
+/* Button styles */
+button {
+    font-family: 'Helvetica', sans-serif;
+    text-align: center;
+    background-color: #F8F9F9; /* Light gray color */
+    border: 1px solid #2C3E50; /* Dark gray color */
+    color: #2C3E50; /* Dark gray color */
+    padding: 0;
+    display: inline-block;
+    outline: none;
+}
+
+#OBtn,
+#XBtn {
+    width: 200px;
+    height: 80px;
+    font-size: 45px;
+    border: 3px solid #EC7063; /* Red color */
+}
+
+/* Cell styles */
+.cell {
+    height: 80px;
+    width: 80px;
+    font-size: 50px;
+}
+
+/* Collapse styles */
+.collapse {
+    height: 245px;
+    width: 245px;
+    font-size: 120px;
+    border-radius: 0;
+}
+
+/* Message styles */
+#msg {
+    color: #5D6D7E; /* Gray color */
+    font-size: 18px;
+}
+
+/* Subscript styles */
+sub {
+    vertical-align: sub;
+    font-size: smaller;
+}
+
+/* Blank space styles */
+#blank {
+    width: 280px;
+    height: 50px;
+}
+
+/* Button hover styles */
+button:hover:enabled {
+    background-color: #BDC3C7; /* Silver color */
+    border: 1px solid #34495E; /* Dark blue color */
+}
+
+/* Button active styles */
+button:active {
+    border: 1px solid #2C3E50; /* Dark gray color */
+}
+
+/* Disabled button styles */
+button:disabled,
+button[disabled] {
+    background-color: #D5D8DC; /* Light gray color */
+}
